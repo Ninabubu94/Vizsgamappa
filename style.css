@@ -1,0 +1,1226 @@
+*
+{
+    margin: 0px;
+    font-family: Georgia;
+}
+.kezdolap
+{
+    background-image: url(Picture/pets-3715733_1280.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    
+ }
+ .logo
+ {
+    height: 45px;
+    display: inline-block;
+   margin: auto;
+   width: 45%;
+   margin-left: 35px;
+
+
+ }
+ .logo img
+{
+    height: 130px;
+    width: 250px;
+    margin-top: 25px;
+}
+ 
+header nav  a
+{
+    display: inline;
+    text-decoration: none;
+	font-size: medium;
+    background-color: rgb(252, 191, 92);
+    font-weight: bold;
+    color: rgb(199,107,132);
+    padding: 10px;
+    
+}
+header nav a:hover
+{
+    
+    opacity: 0.5;
+}
+header nav ul
+{list-style: none;
+display: flex;
+
+padding: 0;
+margin: 0;
+margin-top: 3px;
+}
+header .header
+{
+    display: flex;
+	justify-content: right;
+	align-items: center;
+    margin-bottom:320px;
+    padding-right: 5px;
+    
+}
+.contiener
+{   
+    text-align: center;
+    height: 46px;
+    display: flex;
+    justify-content: center;
+
+
+}
+.menu{
+    list-style: none;
+}
+.menu >li{
+    float: left;
+    background-color: rgb(252, 191, 92);
+    position: static;
+    display: flex;    
+    margin: 0 2px 0 0;
+    
+}
+.menu >li:hover{
+    opacity: 0.7;
+}
+.menu li> a{
+    color: rgb(199,107,132);
+    display: block;
+    padding: 15px;
+    font-weight: bold;
+    font-size:small;
+    text-align: center;
+    text-decoration: none;
+    text-transform:uppercase;
+    letter-spacing: 2px;
+}
+.menu li >a:hover{
+    color: bisque;
+
+}
+
+.imagename:hover
+{
+    opacity: 0.7;
+}
+.imagename
+ {
+    width: 80%;
+    padding-bottom: 10px;
+    list-style: none;
+    text-align: center;
+    float: left;
+    background-color: rgb(252, 191, 92);
+ }
+
+ .imagename a
+ {
+    
+    width: 100%;
+    color: rgb(199,107,132);
+    text-decoration: none;
+    font-weight: 900;
+    
+    
+ }
+
+ .imagename img
+ {
+    display: block;
+    width: 100%;
+    padding-bottom: 10px;
+ }
+
+.alkategoriak
+ {
+    background-color: rgb(255, 217, 105);
+    padding: 25px 2px 15px 25px;
+    font-family: Georgia;
+   
+
+ }
+
+.alkategoriak ul li
+{
+   width:20%;
+   height: 15%;
+   display: inline-block;
+   padding: 10px 0 15px 0;
+
+   
+   
+}
+ .alkategoriak ul
+ {
+    list-style: none;
+ 
+ }
+ 
+ .termek
+ {
+    background-color: rgb(255, 217, 105);
+    text-align:center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+ }
+ .termek li img
+ {
+    width: 35%;
+    height: 50%;
+   float:right;
+    padding-right: 35px;
+    padding-bottom: 35px;
+    padding-left: 35px;
+    
+    
+ }
+ .termek li img:hover
+ {
+    
+    transform:scale(1.5);
+ }
+ .termek li
+ {
+    max-width: 30%;
+    display: inline-block;
+    padding: 45px;
+    padding-bottom: 30px;
+    
+
+ }
+ .term
+ {
+    text-align: center;
+   
+ }
+ .term>p
+ {
+   
+    margin: 0;
+    text-align: left;
+    color:rgb(199,107,132);
+    font-weight: 600;
+    padding-left: 25px;
+    padding-bottom: 15px;
+
+ } 
+ .term h3
+ {
+    text-align: center;
+    padding-bottom: 25px;
+ }  
+ .term span
+ {
+    text-align: justify;
+    padding: 15px;
+    display: block;
+    
+ } 
+ .more
+{
+    display: block;
+    text-decoration: none;
+    color:rgb(199,107,132);
+    font-weight: 600;
+    text-align: center;
+    background-color: rgb(252, 191, 92);
+    padding: 15px;
+    
+ }
+ .price
+ {
+    display: inline-flex;
+    justify-content: space-between;
+ }
+ 
+ .termek.pagination{
+    height: 35px;
+ }
+ .termek.pagination::after,
+ .termek li::after
+{
+    display: block;
+    content: "";
+    clear: both;
+}
+.prev
+{
+	float: left;
+} 
+.next
+{
+	float: right;
+}
+
+
+header .bases
+{
+    
+    text-align: right;
+    font-family: Georgia;
+    padding-right: 5px;
+    padding-bottom: 9px;
+    padding-top: 35px;
+   
+}
+
+.oldal
+{
+    background-color: rgb(255, 217, 105);
+    padding:25px;
+    text-align: center;
+}
+.aloldal> h1
+{
+    background-color: rgb(255, 217, 105);
+    padding:25px;
+    text-align: center;
+    text-transform:uppercase;
+    letter-spacing: 2px;
+    
+}
+.aloldal> p
+{
+    background-color: rgb(255, 217, 105);
+    padding: 25px 80px 25px 80px;
+   
+    
+}
+main
+{
+    background-color: rgb(255, 217, 105);
+}
+
+button
+{
+	
+    background-color:rgb(252, 191, 92);
+    color: rgb(199,107,132);
+    border: none;
+    padding: 9px;
+    
+    font-size: medium;
+    font-weight: bold;
+}
+.button:hover,
+.car:hover 
+{
+
+    transition: 0.3;
+    opacity: 0.5;
+}
+.car
+{
+    
+    background-color: rgb(252, 191, 92);
+    color: rgb(199,107,132);
+    border: none;
+    padding: 9px;
+    
+    font-size: medium;
+    font-weight: bold;
+}
+
+
+
+.cimoldal
+{
+    
+    font-size: 180%;
+    justify-content:space-around;
+    display: flex;
+    color: rgb(199,107,132);
+    padding-top: 80px;
+    padding-bottom: 50px;
+    
+}
+.fooldal p
+{
+    
+    font-size: 100%;
+    justify-content:space-around;
+    display: flex;
+    text-align: justify;
+    margin: 35px;
+    color: rgb(32, 32, 32);
+    font-weight: 700;
+    text-indent: 30px;
+    
+}main .cover
+{
+    width: 95%;
+   margin: auto;
+    color: rgb(32, 32, 32);
+    padding-top: 25px; 
+    margin-top: 35px; 
+    margin-bottom: 50px;
+    text-align: center;
+}
+main .cover a img
+{
+    
+    display: block;
+    width: 200px;
+    height: 200px;
+   
+}
+main .cover a 
+{
+    
+    text-align: center;
+    font-size: large;
+    list-style: none;
+    border: none;
+    display: inline-block; 
+    text-decoration: none;
+    color: rgb(32, 32, 32);
+    background-color: white;
+}
+main .cover ul
+{list-style: none;}
+main .cover li
+{ max-width:20%;
+    max-height: 15%;
+    display: inline-block;
+    padding: 10px 0 15px 0;
+ }
+main .cover a:hover
+{
+    opacity: 0.7;
+}
+.cover1{text-align: center;}
+main .cover1 img
+{
+   
+    
+    max-width: 155px;
+    object-fit: cover;
+    margin: 28px;
+   margin-bottom: 80px;
+
+   margin-top: 35px;
+}
+.rovid h3
+{
+    font-size: 30px;
+    width: 50%;
+    text-align: center;
+    color: rgb(199,107,132);
+}
+.rovid p
+{
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 35px;
+    width: 50%;
+    display: inline-block;
+   
+    
+}
+.map
+{
+    padding-bottom: 45px;
+    display: inline-block
+    
+}
+.rovid
+{
+    display: inline;
+    width: 50%;
+    margin: auto;
+}
+
+.inside
+{
+    
+    background-color: rgb(252, 191, 92);
+    text-align: center;
+    
+}
+footer{
+
+    background-color: rgb(141, 176, 183);
+    
+}
+footer .inside section
+{
+    display: inline;
+    margin: auto;
+    width: 85%;  
+    padding-top: 15px;
+    color: rgb(32, 32, 32);
+   
+    font-size: larger;
+    margin-bottom: 20px;
+}
+.inside section h3
+{
+    display: inline-block;
+    margin: auto;
+    width: 21%;
+
+}   
+ footer .page
+{
+    font-size:larger;
+    color: rgb(32, 32, 32);
+    
+   
+    margin: auto;
+    width: 25%;
+    
+    
+}
+.page a:hover
+{
+    opacity: 0.7;
+}
+
+footer a,
+footer .packet
+{
+    display: flex;
+    margin: auto;
+    width: 82%;
+    color: rgb(32, 32, 32);
+    text-decoration: none;
+    text-align:center;
+   
+    
+}
+.kovess
+{
+    
+    margin: auto;
+    width: 25%;
+   
+}
+
+.kovess a
+{
+    display: inline;
+   
+    padding: 16px;
+}
+.hirlevel
+{
+    margin: auto;
+    width: 25%;  
+}
+.hirlevel p
+{
+    padding: 5px;
+    background-color: rgb(141, 176, 183);
+}
+
+.safes
+{
+    
+   
+    margin: auto;
+    width: 25%;
+    
+}
+.info
+{
+    background-color:rgb(255, 217, 105);
+   
+
+
+}
+.infok h2
+{
+    margin-bottom: 15px;
+    padding-top: 25px;
+    
+}
+.infok p
+{
+    opacity: 0.75;
+   
+}
+.infok span
+{
+    font-weight: bold;
+   
+}
+.infok
+{
+    width: 75%;
+   text-align:start;
+   padding-bottom: 50px;
+   margin: auto;
+}
+.hir
+{
+    background-color: rgb(255, 217, 105);
+    
+}
+.akcio
+{
+    width: 75%;
+    background-color: rgb(255, 217, 105);
+    margin: auto;
+    padding-bottom: 35px;
+ 
+}
+
+.szall 
+{
+    background-color: rgb(255, 217, 105);
+    justify-content: center;
+    text-align: justify;
+   
+}
+
+.szallitas
+{
+    background-color: rgb(255, 217, 105);
+    width: 85%;
+    margin: auto;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.szallitas h2
+{
+    padding-top: 45px;
+    padding-bottom: 25px;
+}
+.szallitas h3
+{
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+.szallitas span
+{
+    font-weight: bold;
+
+}
+table
+{
+    width: 50%;
+    padding-bottom: 55px;
+}
+table thead
+{
+    font-size: medium;
+    
+   
+}
+.tizezer,
+.felette
+.huszezer,
+.gls,
+.pont,
+.fox
+{
+    font-weight: bold;
+   
+}
+table th,
+table td
+{
+    padding: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: center;
+    
+}
+.securite
+{
+    background-color: rgb(255, 217, 105);
+    padding-top: 35px;
+    padding-bottom: 45px;
+   
+}
+.safe
+{
+    margin:auto;
+    width: 85%;
+    
+    
+}
+.safe span
+{
+    font-weight: 20px;
+    font-weight: bold;
+    
+}
+
+.safe h3
+{
+    text-indent: 45px;
+    font-size: 24px;
+}
+
+.cím
+{
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-style: italic;
+
+}
+.safe h2
+{
+    font-size: 25px;
+    padding-bottom: 15PX;
+    text-indent: 30px;
+}
+.safe p,
+.safe li
+{
+    font-size: 18px;
+    font-weight: 500;
+}
+.safe h1
+{
+    font-size: 30px;
+}
+.safe li
+{
+    text-indent: 30px;
+    padding-bottom: 10px;
+}
+
+
+.safe a
+{
+    text-decoration: none;
+    color:rgb(237, 125, 58);
+}
+.safe a:hover
+{
+    color: rgb(47, 191, 113);
+}
+.we
+{
+    background-color: rgb(255, 217, 105);
+    padding-top: 35px;
+    padding-bottom: 45px;
+}
+.mi h1
+{
+    color:  rgb(237, 125, 58);
+    font-weight: bold;
+    letter-spacing: 3px;
+    padding-bottom: 35px;
+    font-size: 25px;
+
+}
+.mi
+{
+    margin:auto;
+    width: 85%;
+    background-color: rgb(255, 217, 105);
+    
+
+}
+
+.mi span
+{
+    color:  rgb(237, 125, 58);
+    font-weight: bold;
+    
+}
+.mi p
+{
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 35px;
+}
+.ÁSZF
+{
+    background-color: rgb(255, 217, 105);
+    padding-top: 35px;
+    padding-bottom: 45px;
+}
+.feltetel
+{
+    margin:auto;
+    width: 85%;
+    background-color: rgb(255, 217, 105);
+}
+.feltetel h1
+{
+    font-weight: bold;
+    letter-spacing: 3px;
+    padding-bottom: 35px;
+    font-size: 25px;
+}
+.feltetel a
+{
+    text-decoration: none;
+    color:rgb(237, 125, 58);
+
+}
+.feltetel a:hover
+{
+    color: rgb(47, 191, 113);
+}
+.feltetel p
+{
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 35px;
+}
+.kell h2
+{
+    font-size: 25px;
+    padding-bottom: 20PX;
+    
+    padding-top: 15px;
+}
+.kell  h3
+{
+    text-indent: 45px;
+    font-size: 24px;
+    padding-bottom: 20PX;
+    padding-top: 15px;
+
+}
+.feltetel h1
+{
+    font-size: 30px;
+}
+.kell  li
+{
+    font-size: 18px;
+    font-weight: 500;
+    text-indent: 55px;
+   
+    
+}
+.kell
+{
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 35px;
+}
+.kell a
+{
+    text-decoration: none;
+    color:rgb(237, 125, 58);
+}
+.kell a:hover
+{
+    color: rgb(47, 191, 113);
+}
+.belepes
+{
+    width: 50%;
+    height: 50%;
+}
+
+.belep img
+{
+    max-height: 110px;
+    width: 210px;
+    padding: 45px;
+    border: 1px solid rgb(52, 52, 52);
+    
+}
+.belep
+{
+    background-color: rgba(245, 173, 192);
+    text-align: center;
+   
+}
+.login
+{
+    text-align: center;
+
+}
+.login input
+{
+    padding: 6px 10px 6px 10px;
+    margin: 12px;
+    text-align: center;
+    width: 300px;
+    
+}
+.psw
+{
+  padding: 10px;
+  margin: auto;
+  width: 15%;
+}
+.labresz p
+{
+    padding-bottom: 180px ;
+    padding-top: 160px;
+    font-size: 28px;
+    font-weight: 600;
+    text-shadow: 2px 2px 5px rgba(245, 173, 192);
+    font-style: italic;
+    
+}
+.labresz
+{
+    background-color: rgb(141, 176, 183);
+    text-align: center;
+   
+    
+}
+.elfelejtett
+{
+    background-color: rgba(245, 173, 192);
+    text-align: center;
+}
+.elfelejtettjelszo
+{
+    text-align: center;
+    background-color: rgb(255, 217, 105);
+
+}
+.emailkuldes
+{
+    width: 50%;
+    margin: auto;
+}
+.emailkuldes h2, p
+{
+    padding: 15px;
+
+}
+.emailkuldes form
+{
+    padding-bottom: 20px;
+}
+.elfelejtettlab
+{
+    background-color: rgb(141, 176, 183);
+    text-align: center;
+
+}
+
+.elfelejtettlab p
+    {
+        padding-bottom: 180px ;
+        padding-top: 160px;
+        font-size: 28px;
+        font-weight: 600;
+        text-shadow: 2px 2px 5px rgba(245, 173, 192);
+        font-style: italic;
+        
+    }
+
+.containers
+{
+    padding: 10px;
+}
+.form-label
+{
+    padding: 10px;
+}
+.titles
+{
+    padding: 25px;
+
+}
+.udv
+{ 
+    padding: 20px;
+    color: rgb(199,107,132);
+    font-weight: 600;
+    font-size: 24px;
+   justify-content: center;
+   display: flex; 
+}
+.kiemelt
+{
+    display:inline-block;
+}
+.reg
+{
+    text-align: center;  
+    
+}
+.reg input
+{
+    padding: 6px 10px 6px 10px;
+    margin: 12px;
+    text-align: center;
+    width: 300px;
+    
+}
+.vedelem
+{
+    width: 300px;
+    display:block;
+    margin: auto;
+    
+
+}
+
+.regis
+{
+    background-color: rgba(245, 173, 192);
+    text-align: center;
+}
+.register
+{
+    background-color: rgb(141, 176, 183);
+    text-align: center;
+   height: 100%;
+    
+}
+.regis img
+{
+    height: 110px;
+    width: 210px;
+    padding: 45px;
+    border: 1px solid rgb(52, 52, 52);
+   
+}
+.register p
+{
+    
+    padding-top:30px ;
+    padding-bottom:38px ;
+    font-size: 28px;
+    font-weight: 600;
+    text-shadow: 2px 2px 5px rgba(245, 173, 192);
+    font-style: italic;
+}
+.kerdesek
+{
+    background-color: rgb(255, 217, 105);
+   
+}
+.kerdesek h1
+{
+    font-weight: bold;
+    letter-spacing: 3px;
+    padding-bottom: 35px;
+    padding-top: 35px;
+    padding-left:10% ;
+}  
+
+.iv input
+{
+    
+    margin: 15px 8px 15px 8px;
+    
+    }
+.iv textarea
+{
+    margin-top: 20px;
+    font-size: 16px;
+}
+.kerdes
+{    
+    background-color: rgb(255, 217, 105);
+    padding: 25px 20px 25px 20px;
+    
+}
+.kerdes div{
+width: 85%;
+margin: auto;
+}
+.kerdes ul
+{   padding: 15px;
+    margin-bottom:30px ;
+    margin-left: 25px;
+    border: 6px solid  rgb(199,107,132); 
+    text-align: justify;
+    list-style:none;
+
+}
+.kerdes ul p
+{
+    font-weight: 600;
+    text-indent: 30px;
+}
+.kerdes ul li
+{
+    font-size:18px;
+    padding: 15px;
+    text-indent: 30px;
+    
+}
+.iv
+{
+    text-align: center;
+   width: 80%;
+    margin: auto;
+    padding-bottom: 50px;
+   
+
+}
+.iv h2
+{
+    padding: 25px 10px 35px 10px;
+    
+
+}
+.iv form{
+    text-align: left;
+    background-color:rgb(255, 224, 130);
+    padding-left: 15px;
+}
+.button1
+{
+    background-color:rgb(252, 191, 92);
+    color: azure;
+    
+    padding: 9px;
+    font-size: medium;
+    font-weight:600;
+}
+.Kereses {
+    
+    display: inline;
+    
+  }
+.Kereses .kulcs{
+    width: 300px;
+    padding: 10px;
+    max-height: 9px;
+    border: 1px solid #ccc;
+  }
+.Kereses select {
+    width: 180px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+.results
+  {
+background-color: rgb(255, 217, 105);
+  }
+.results table
+  {
+    width: 100%;
+    border: 1px solid rgb(32, 32, 32);
+  }
+.results table td, th
+{
+    border-bottom: 1px solid rgb(32, 32, 32);
+    border-right: 1px solid rgb(32, 32, 32);;
+}
+.result
+{
+    background-color: rgb(255, 217, 105);
+}
+.velemeny
+{
+    background-color: rgb(255, 217, 105);
+   
+}
+.velemeny h1
+{
+    font-weight: bold;
+    letter-spacing: 3px;
+    padding-bottom: 35px;
+    padding-top: 35px;
+    padding-left:10% ;
+}  
+.rating
+{
+    text-align: center;
+    width: 80%;
+     margin: auto;
+     padding-bottom: 50px;    
+}
+.rating form{
+    text-align: center;
+    background-color:rgb(255, 224, 130);
+    padding-bottom: 10px;
+    
+}
+.button2
+{
+    padding: 10px;
+    margin-top: 10px;
+    background-color: rgb(252, 191, 92);
+    border:  1px solid ;
+}
+.rating h2
+{
+    padding: 25px 10px 35px 30px;
+    text-align: left;
+
+}
+.velemenyek{background-color: rgb(255, 217, 105);}
+.velemenyek div{
+    width: 85%;
+    margin: auto;
+    
+}
+.velemenyek li
+{   padding: 15px;
+   list-style: none;
+    margin-left: 25px;
+    border: 8px solid  rgb(255, 224, 130); 
+    text-align: justify;
+
+}
+
+
+@media screen and (max-width: 500px)
+{
+    body{max-width: 100%;};
+    header{max-width: 500px; }
+	.kezdolap{background-size: 100%;}
+    header .header {margin-bottom: 50px;}
+    header nav a{float:right;padding: 5px;}
+    button {padding: 0px;font-size: 8px;}
+    .logo{margin-left: 0;display: block;}
+    .logo img{ height: 80px;width: 130px;margin-top: 5px;}
+    .contiener { width: 95%;margin: auto;height: 20px;} 
+    .menu > li{margin: 8px 5px 0 0;}
+    .menu li> a {font-size: 8px;padding: 5px;font-weight: 300; }
+    .Kereses .kulcs{width: 80px; height: 30px;padding: 0;}
+    .Kereses select{padding: 0px;max-width: 50px;max-height:30px}
+    
+    .udv{text-align: center;font-size: 15px;}
+    .car{padding: 5px;font-size: 8px;}
+    
+    .alkategoriak{padding: 0;padding-left: 10px;}
+    .alkategoriak ul{max-width: auto;margin: auto;}
+    .alkategoriak ul li {width: 25%;}
+    .oldal{font-size: 18px;}
+    .aloldal h1{font-size: 18px;}
+    .aloldal p{font-size: 12px;padding: 0 10px 25px 10px ;}
+    .imagename{width: 95%;}
+    .imagename a {font-weight: 500;font-size: 12px;}
+
+    .termek ul{margin: auto;display: flex;width: 90%;}
+    .termek{padding-top: 0;}
+    .termek li{padding: 0;}
+    .termek li img{max-width: 65%;max-height: 75%;}
+    .termek li h3{font-size: 12px;}
+
+    .cimoldal {font-size: 110%;}
+    .cover li{max-width: 25%;}
+    .cover{text-align: center;}
+    .cover1{text-align: center;}
+    .cover1 img{margin: 0 0 0 0;}
+    .cover img{max-width: 50px;max-height: 50px;}
+    main .cover a {font-size: 8px;}
+    .rovid {width: 95%;display: block;}
+    .rovid h3{width: 95%;font-size: 15px;}
+    .rovid p{width: 80%;}
+    .map{display: block;text-align: center;}
+    .map iframe{width: 80%;}
+    .fooldal p{margin: 0;font-size: 12px;}
+    
+   
+    main .cover a{font-size:8px;}
+    .inside {font-size: 8px;} 
+    footer a{font-size: 12px;text-align: left;}
+    .page{font-size:12px;}
+    .safes img{max-width: 80px;max-height: 80px;}
+    .kovess a{padding-bottom: 10px;display: block;}
+    .hirlevel input{max-width: 85%;}
+    .hirlevel p{font-size: 14px;padding: 5px;}
+
+
+
+
+
+
+	
+}
